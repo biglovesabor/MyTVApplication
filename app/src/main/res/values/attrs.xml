@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="unSelectCirclerColor" format="color"></attr>
+        <attr name="selectCirclerColor" format="color"></attr>
+        <attr name="circlerSize" format="dimension"></attr>
+        <attr name="itemWidth" format="dimension"></attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="sub_menu_setting">
+
+    </string-array>
+    
+    <string-array name="common_settings_list">
+
+    </string-array>
+    
+     <string-array name="system_time_setting_menu">
+
+</string-array>
+    
+     <string-array name="summer_time">
+
+    </string-array>
+    
+      <string-array name="area_setting">
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg1"
+    xmlns:don="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      >
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+
+         <com.jiuhong.mytvapplication.utils.DragImageView
+             android:id="@+id/xuanfu_pic"
+             android:layout_width="wrap_content"
+             android:src="@mipmap/xuanfupic"
+             android:layout_height="wrap_content"/>
+     </RelativeLayout>
+      <LinearLayout
+
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <LinearLayout
+
+              android:layout_marginLeft="190px"
+              android:layout_marginRight="190px"
+              android:layout_marginTop="320px"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <com.don.clockviewlibrary.ClockView
+                  android:layout_width="150dp"
+                  android:layout_height="150dp"
+                  don:circle_color="@color/touming_color"
+                  don:hour_color="@color/white"
+                  don:minute_color="@color/white"
+                  don:minute_mark_color="@android:color/white"
+                  don:quarter_mark_color="@color/white"
+                  don:second_color="@color/white"
+                  don:draw_center_circle="true"/>
+
+
+              <LinearLayout
+                  android:gravity="center_vertical"
+                  android:layout_marginLeft="10px"
+                  android:orientation="vertical"
+                  android:layout_width="440px"
+
+                  android:layout_height="match_parent">
+                  <LinearLayout
+                      android:gravity="center"
+                      android:orientation="horizontal"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+                      <TextView
+                          android:id="@+id/tv_shifen"
+                          android:layout_width="wrap_content"
+                          android:text="08:50"
+                          android:textColor="@color/white"
+                          android:textSize="135px"
+                          android:layout_height="wrap_content"/>
+
+                      <LinearLayout
+                          android:layout_weight="1"
+                          android:orientation="vertical"
+                          android:layout_width="0dp"
+                          android:layout_height="wrap_content">
+                          <TextView
+                              android:id="@+id/tv_pm"
+                              android:layout_width="wrap_content"
+                              android:text="上午"
+                              android:textColor="@color/white"
+                              android:textSize="45px"
+                              android:layout_height="wrap_content"/>
+                          <TextView
+                              android:id="@+id/tv_miao"
+                              android:textColor="@color/white"
+                              android:layout_width="wrap_content"
+                              android:text=":50"
+                              android:textSize="45px"
+                              android:layout_height="wrap_content"/>
+
+                      </LinearLayout>
+
+
+                  </LinearLayout>
+
+
+                  <LinearLayout
+                      android:orientation="horizontal"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content">
+                      <TextView
+                          android:id="@+id/tv_week"
+                          android:layout_width="match_parent"
+                          android:text="周一"
+                          android:gravity="bottom"
+                          android:textSize="32px"
+                          android:textColor="@color/white"
+                          android:layout_height="wrap_content"/>
+
+                      <TextView
+                          android:id="@+id/tv_date"
+                          android:layout_width="match_parent"
+                          android:text="20 9,2021 "
+                          android:gravity="bottom"
+                          android:textSize="32px"
+                          android:textColor="@color/white"
+                          android:layout_height="wrap_content"/>
+                  </LinearLayout>
+
+              </LinearLayout>
+              <LinearLayout
+                  android:layout_marginLeft="5dp"
+                  android:layout_gravity="center"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+                  <LinearLayout
+                      android:id="@+id/ll_tab1"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+                      <ImageView
+                          android:background="@mipmap/whiteboard_pic"
+                          android:layout_width="160px"
+                          android:layout_height="160px"/>
+                      <TextView
+                          android:textColor="@color/white"
+                          android:textSize="16sp"
+                          android:layout_width="wrap_content"
+                          android:text="@string/baiban"
+                          android:layout_height="wrap_content"/>
+
+                  </LinearLayout>
+                  <LinearLayout
+                      android:id="@+id/ll_tab2"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+                      <ImageView
+                          android:background="@mipmap/files_pic"
+                          android:layout_width="160px"
+                          android:layout_height="160px"/>
+                      <TextView
+                          android:textColor="@color/white"
+                          android:textSize="16sp"
+                          android:layout_width="wrap_content"
+
+                          android:text="@string/wenjian"
+                          android:layout_height="wrap_content"/>
+
+                  </LinearLayout>
+                  <LinearLayout
+                      android:id="@+id/ll_tab3"
+                      android:layout_weight="1"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent">
+                      <ImageView
+                          android:background="@mipmap/screenshare_pic"
+                          android:layout_width="160px"
+                          android:layout_height="160px"/>
+                      <TextView
+                          android:textColor="@color/white"
+                          android:textSize="16sp"
+                          android:layout_width="wrap_content"
+                          android:text="@string/fenxiang"
+                          android:layout_height="wrap_content"/>
+
+                  </LinearLayout>
+              </LinearLayout>
+
+          </LinearLayout>
+          <LinearLayout
+
+
+              android:layout_marginLeft="240px"
+              android:layout_marginRight="240px"
+              android:layout_marginTop="80px"
+              android:layout_width="match_parent"
+              android:background="@color/touming_color"
+              android:layout_height="170px">
+              <androidx.recyclerview.widget.RecyclerView
+                  android:id="@+id/app_recycle"
+                  tools:listitem="@layout/item_allapp"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+              </androidx.recyclerview.widget.RecyclerView>
+          </LinearLayout>
+      </LinearLayout>
+
+  </FrameLayout>
+
+
+
+
+
+
+
+</LinearLayout>

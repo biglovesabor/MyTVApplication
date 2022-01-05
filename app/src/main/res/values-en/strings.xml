@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">MyTVApplication</string>
+    <string name="browse_title">Videos by Your Company</string>
+    <string name="related_movies">Related Videos</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="watch_trailer_1">Watch trailer</string>
+    <string name="watch_trailer_2">FREE</string>
+    <string name="rent_1">Rent By Day</string>
+    <string name="rent_2">From $1.99</string>
+    <string name="buy_1">Buy and Own</string>
+    <string name="buy_2">AT $9.99</string>
+    <string name="movie">Movie</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+
+
+    <string name="main_app_open_error">打开APP失败</string>
+
+
+    <string name="day_1">Monday,</string>
+    <string name="day_2">Tuesday,</string>
+    <string name="day_3">Wednesday,</string>
+    <string name="day_4">Thursday,</string>
+    <string name="day_5">Friday,</string>
+    <string name="day_6">Saturday,</string>
+    <string name="day_7">Sunday,</string>
+
+
+    <string name="day_am">AM</string>
+    <string name="day_pm">PM</string>
+
+
+    <string name="MONTH_1">January</string>
+    <string name="MONTH_2">February</string>
+    <string name="MONTH_3">March</string>
+    <string name="MONTH_4">April</string>
+    <string name="MONTH_5">May</string>
+    <string name="MONTH_6">June</string>
+    <string name="MONTH_7">July</string>
+    <string name="MONTH_8">August</string>
+    <string name="MONTH_9">September</string>
+    <string name="MONTH_10">October</string>
+    <string name="MONTH_11">November</string>
+    <string name="MONTH_12">December</string>
+
+
+    <string name="baiban">whiteboard</string>
+    <string name="wenjian">Files</string>
+    <string name="fenxiang">Screen Share</string>
+
+
+    <string name="applications">Applications</string>
+    <string name="recentapplications">Recent Applications</string>
+    <string name="screenshot">Screen Shot</string>
+    <string name="clearall">Clear all</string>
+
+
+
+    <string name="input">Input</string>
+    <string name="window">Windows</string>
+    <string name="recent">Recent</string>
+    <string name="apps">Apps</string>
+    <string name="browser">Browser</string>
+    <string name="setting">Setting</string>
+    <string name="lock">Lock</string>
+
+
+    //弹出框
+    <string name="home">Home</string>
+    <string name="back">Back</string>
+    <string name="annotate">Annotate</string>
+    <string name="capture">Capture</string>
+    <string name="freeze">Freeze</string>
+    <string name="controlpanel">Control\nPanel</string>
+
+
+
+
+
+
+
+</resources>

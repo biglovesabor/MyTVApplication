@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg1"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="150px"
+        android:background="@drawable/touming_yuanjiao"
+        android:layout_height="wrap_content">
+       <LinearLayout
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="72px">
+           <TextView
+               android:layout_width="match_parent"
+               android:text="@string/recentapplications"
+               android:layout_weight="1"
+                android:layout_marginTop="15px"
+               android:layout_marginLeft="24px"
+               android:layout_marginBottom="15px"
+               android:textSize="32px"
+               android:textColor="@color/white"
+               android:layout_height="match_parent"/>
+
+          <LinearLayout
+              android:id="@+id/clear_all1"
+             android:gravity="center_vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent">
+              <TextView
+                  android:layout_width="16px"
+                  android:layout_height="16px"
+                  android:layout_marginRight="1px"
+                  android:background="@mipmap/clear_pic"
+                  android:gravity="center"
+                  android:orientation="vertical"/>
+
+              <LinearLayout
+
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_marginRight="25px"
+                  android:gravity="center"
+                  android:orientation="vertical">
+
+                  <TextView
+
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="center"
+                      android:text="@string/clearall"
+                      android:textColor="@color/white"
+                      android:textSize="16px" />
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="1dp"
+                      android:background="@color/white"
+                      android:gravity="center" />
+              </LinearLayout>
+          </LinearLayout>
+       </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:background="@color/white90"
+            android:layout_height="1dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/top_recycle"
+            tools:listitem="@layout/item_apps"
+            android:layout_marginLeft="24px"
+            android:layout_marginRight="24px"
+            android:layout_width="match_parent"
+            android:layout_height="283px"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="60px"
+        android:background="@drawable/touming_yuanjiao"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="72px">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@string/screenshot"
+                android:layout_weight="1"
+                android:layout_marginTop="15px"
+                android:layout_marginLeft="24px"
+                android:layout_marginBottom="15px"
+                android:textSize="32px"
+                android:textColor="@color/white"
+                android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:id="@+id/clear_all2"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="16px"
+                    android:layout_height="16px"
+                    android:layout_marginRight="1px"
+                    android:background="@mipmap/clear_pic"
+                    android:gravity="center"
+                    android:orientation="vertical"/>
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="25px"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="@string/clearall"
+                        android:textColor="@color/white"
+                        android:textSize="16px" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white"
+                        android:gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"
+            android:background="@color/white90"
+            android:layout_height="1dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/bottom_recycle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="283px"/>
+
+    </LinearLayout>
+
+</LinearLayout>
